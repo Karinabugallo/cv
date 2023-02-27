@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+    font-style: italic;
+  }
+  body
+  {
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container
+  {
+  position: relative;
+  width: 100%;
+  margin: 50px;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  box-shadow: 0 35px 55px rgb(0,0,0,0,01);
+}
+ .left_Side
+{
+    position: relative;
+    background:lightcoral;
+    padding: 40px;
+  }
+  .perfiltexto
+  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid white;
+  }
+  .perfiltexto h1
+  {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+  }
+  .perfiltexto h1 span
+  {
+    font-size: 0.8em;
+    font-weight: 300;
+  
+  }
+  .perfiltexto h2
+  {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 150;
+    line-height: 1,4em;
+  }
+  .infodeContacto
+  {
+padding-top: 20px;
+  }
+  .Title 
+  {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-size: large;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 3px solid white;
+  }
+  .infodecontacto ul
+  {
+  position: relative;
+  }
+  .infodecontacto ul li
+  {
+    position: relative;
+    list-style: none;
+    margin: 10px 0 ;
+    cursor: pointer;
+  }
+  .infodecontacto ul li.icon
+  {
+   display: inline-block;
+   width: 30px;
+   font-size: 18px;
+   color: black;
+  }
+  .infodecontacto ul li span 
+  {
+    color: black;
+    font-weight: 200;
+  }
+  .infodecontacto a
+  {
+    color: black;
+    font-weight: 200;
+  }
+  .infodeestudios
+  {
+    padding-top: 40px;
+  }
+  .Title 
+  {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 150;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .infodeEstudios h4
+  {
+     color: white;
+     text-transform: uppercase;
+     text-align: left;
+     font-weight: 300;
+     font-size: medium;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+  }
+  .infodeEstudios h5
+ {
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font: caption;
+    font-style: italic;
+    font-weight: 300;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+  .right_Side
+  {
+    position: relative;
+    background: white;
+    padding: 40px;
+  }
+  .perfiltexto3
+  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+  }
+  .perfiltexto3 h2
+  {
+    color: black;
+    padding: 5px;
+    font-size: 1.4em;  
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.4em;
+    border-bottom: 20px solid lightcoral;
+  }
+  .perfiltexto3 h3
+  {
+    color: black;
+    padding: 5px;
+    font-size: 1em;
+    font:caption;
+    font-style: italic;
+    font-weight: 40;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1,2em;
+  }
+  .perfiltexto3 h6
+  {
+    color: black;
+    padding: 5px;
+    font-size: 1em;
+    font:caption;
+    font-style: italic;
+    font-weight: 40;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1,2em;
+  }
+  .SobreMi
+  {
+    margin-bottom: 50px;
+  }
+  .SobreMi:last-child
+  {
+    margin-bottom: 0;
+  }
+  .Tiulo2 
+  {
+   color: black;
+   padding: 5px;
+   text-transform: uppercase;
+   text-align: left;
+   font-weight: 150;
+   font-style: italic;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   border-bottom: 1px black;
+  }
+  p
+  {
+   color:black;
+   font: caption;
+   font-style: italic;
+   font-family:'Poppins', sans-serif ; 
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  a:link 
+  { 
+   text-decoration: none;
+   color: black;
+  }
+  a:visited 
+  {
+  text-decoration:none;
+  }
+  a:hover
+   {
+    color: blue;
+  }
+  button
+  {
+    border-radius: 5px;
+    border-color: lightcoral;
+    width: 200px;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: larger;
+    color: lightcoral;
+    background-color:lightcoral;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 180px;
+  }
+  button:hover
+  {
+    border-radius: 5px;
+    border-color: lightcoral;
+    width: 200px;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: larger;
+    background-color: white;
+  }
+
+
+
+  
+  
+  
+  
+ 
+
+ 
+       
+ 
